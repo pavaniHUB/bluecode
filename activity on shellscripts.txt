@@ -1,0 +1,76 @@
+.Program to check if given two strings are same or equal
+2.Check
+  a)Check if it is a file
+  b)Check if it a directory
+  e)Check if it a soft link or symbolic link
+  f)Check it is having read permission
+  g)Check if it having write permission
+  h)Check if it is having execute permission
+  i)if SUID enabled ?
+  j)f sticky bit is enabled?
+  k)if block special file?
+  l)if Character special file
+  m)if it is a named pipe special device file?
+3)script to print various LVM based output 
+--------------MENU------------
+P.Print PVs
+V.Print VGs 
+L.Print LVs
+B.Print Block Devices
+OS.Print OS Version
+E.Exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.Write a script to compare two numbers (Read numbers from keyboad, using command line ie positional paramenters)
+2.Implement the above for three numbers. (you may use logical operators for the same).
+  Obtain three numbers from command line. Else read those from the keyboard
+3.check the given user exist in the system. if yes, lock the user.
+4.Create a user and set the passwod from the keyboard. Read user from commandline
+5.Check if the given file exist in the system. If yes, print the contents of the file.
+6.Find the given vg existing in the system. Read vgname from the command line.
+7.read marks in 5 subjects and calculate its average useing bc command
+8.Enter the upper limit to print Natural numbers
+9.keep usernames in a file (one line per user) and read this file and create users. Set the password as Welcome@01
+10.Create 20 logical volumes each of size 128M  and mount those as below. Add persistent entry in /etc/fstab for all the lvs. Make sure you have imagevg created and is having enough free space.
+   /dev/imagevg/imagelvn  /imagesfsn
+   where n is anumber 1..20
+11.Impliment LVM operations 
+list
+   a)block devices
+   b)volumegroup
+   c)logical volumes
+   d)filesystems
+   e)memory usage
+create
+   a)volume group
+   c)logical volume
+   d)filesystems
+   e)swap
+delete
+   a)filesystem
+   b)logical volume
+   c)deactive swap
+   D)delete volumegroup
+others
+   a)mount a filesystem
+   b)un mount a filesystem
+   c)activate a swap
+   d)deactivate a swap
