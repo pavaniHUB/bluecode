@@ -1,0 +1,7 @@
+#!bin/bash
+#script to create user and password
+echo "print members of a group"
+read -p "enter the group name :" gname
+echo "below members of $gname group:"
+groupmems -l -g $gname
+#end of the script 
